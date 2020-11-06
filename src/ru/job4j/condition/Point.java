@@ -12,5 +12,6 @@ public class Point {
 
         result = Point.distance(-5, 0, 0, 5);
         System.out.println("result (-5, 0) to (0, 5) " + result);
+
     }
 }
