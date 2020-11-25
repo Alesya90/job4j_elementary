@@ -10,13 +10,11 @@ public class FactorialTest {
 
     @Test
     public void whenCalculateFactorialForFiveThenOneHundreedTwenty() {
-        /* напишите здесь тест, проверяющий, что факториал для числа 5 равен 120. */
         assertThat(Factorial.calc(5), Matchers.is(120));
     }
 
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
-        /* напишите здесь тест, проверяющий, что факториал для числа 0 равен 1. */
         assertThat(Factorial.calc(0), Matchers.is(1));
     }
 }
